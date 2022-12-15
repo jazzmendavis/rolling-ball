@@ -1,0 +1,13 @@
+#ball {
+    border: 2px solid #0000ff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: spin 2s linear 0s infinite;
+
+  }
+
+@keyframes spin {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
