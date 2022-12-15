@@ -7,7 +7,22 @@
 
   }
 
+#slide {
+  animation: slide 2s linear 0s infinite;
+
+}
+
+hr {
+  margin: 0 0;
+ }
+
 @keyframes spin {
   from{transform: rotate(0deg);}
   to{transform: rotate(360deg);}
+}
+
+
+@keyframes slide {
+  from{transform: translate(0,0) ;}
+  to{transform: translate(90vw, 0);}
 }
